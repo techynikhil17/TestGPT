@@ -1,0 +1,20 @@
+{
+  "name": "mcp-poc",
+  "version": "1.0.0",
+  "description": "Bugcrowd Safety Bug Bounty (OpenAI) research PoC - synthetic indirect prompt-injection MCP server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "express": "^5.2.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
